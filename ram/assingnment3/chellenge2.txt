@@ -1,6 +1,0 @@
-#include <stdio.h>  // Include standard input-output library for printf and scanf
-
-int main() {
-    char name[50];  // Variable to store user's name (up to 49 characters + null terminator)
-    int age;        // Variable to store user's age
-    float salary;   // Variable to store user's
