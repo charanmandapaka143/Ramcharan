@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct Account {
+    int accNo;
+    char name[50];
+    float balance;
+};
+
+void createAccount(struct Account *a);
+void deposit(struct Account *a);
+void withdraw(struct Account *a);
+void checkBalance(struct Account *a);
+void saveToFile(struct Account *a);
+int loadFromFile(struct Account *a);
+
+int main(

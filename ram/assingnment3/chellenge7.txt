@@ -1,0 +1,24 @@
+# Input a string
+text = input("Enter a string: ")
+
+# Reverse the string (without using library functions)
+reverse_text = ""
+for i in range(len(text) - 1, -1, -1):
+    reverse_text += text[i]
+
+print("Reversed String:", reverse_text)
+
+# Count vowels
+vowels = "aeiouAEIOU"
+vowel_count = 0
+
+for ch in text:
+    if ch in vowels:
+        vowel_count += 1
+
+print("Number of vowels:", vowel_count)
+
+# Check palindrome
+is_palindrome = True
+for i in range(len(text)):
+    if
